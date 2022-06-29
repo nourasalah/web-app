@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/**********
+header 
+***********/
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+a:hover{
+    background-color: #009688;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0;
+
+}
+.fa-house{
+    font-size: 15px;
+}
+.fa-magnifying-glass{
+    padding: 22px 15px 0 0;
+}
+.fa-sort-down{
+    padding-left: 5px;
+}
+.logo{
+    background-color: #009688;
+}
+.fa-house{
+    padding-right: 5px;
+}
+.parent-link{
+    background-color: wheat;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 410px;
+    background-color: rgb(95, 83, 83);
+    visibility: hidden;
+}
+.drop:hover + .parent-link{
+    visibility: visible;
+}
+/*******
+main img
+*******/
+.main-img{
+    width: 100%;
+    height: 450px;
+    
+}
+.learn{
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    font-size: 20px;
+
+}
+.learn:hover{
+    background-color: #009688;
+}
+/*
+our team
+*/
+.our-team , .meet{
+    text-align: center;
+}
+.our-team{
+    margin-bottom: 14px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.johny{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.dev{
+    text-align: center;
+    margin-top: 20px;
+}
+.our-work{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.costumer1{
+    height: 360px;
+    background-color: #fff;
+    width: 23%;
+    line-height: 30px;
+
+}
+.img {
+    width: 100px;
+    height: 200px;
+    width: 100%;
+}
+.work-text{
+    width: 25%;
+    color:white;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.costumer1 h3, p{
+    padding-left: 12px;
+}
+/********
+pricing
+*********/
+.pricing{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.basic{
+    width: 33%;
+    margin-top: 60px;
+    border-radius: 1px solid gray;
+}
+.basic h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.basic p{
+    padding: 10px 0;
+    border-radius: 1px solid gray;
+}
+.sign-up{
+    background-color: #009688;
+}
+.basic div{
+    border-radius: 1px solid gray;
+
+}
